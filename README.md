@@ -50,7 +50,7 @@ All users and contributors of the Harness community should adhere to the followi
 
 ## Communication
 
-Refer [Harness Community Communications Guide](https://github.com/harness-community/overview/blob/main/community_communication_guide.rst) to interact with the wider community users/contributors, join slack workgroups to get help/help other users and create topics in [community.harness.io](https://community.harness.io)
+Refer [Harness Community Communications Guide](https://github.com/harness-community/overview/blob/main/community_communication_guide.rst) to interact with the wider community users/contributors, join slack workgroups to get help/help other users and create topics in tre [community.harness.io](https://community.harness.io)
 
 ## License
 
