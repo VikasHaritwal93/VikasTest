@@ -27,7 +27,7 @@ Here we have built a simple two-stage CI Pipeline in Harness. Setting up and run
 - Build the code and run unit tests in the build farm test.
 - Package the app as a Docker image and upload it to Docker Hub.
 - Pull the uploaded image to the build farm as a Background Task. Check out more about background tasks here
-- Run an integration test against the sample app.
+- Run an integration test against the sadfsmple app.
 
 ## Graphical Summary
 
