@@ -1,0 +1,28 @@
+pipeline:
+  name: remotemix
+  identifier: remotemix
+  projectIdentifier: defaultproject
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: Vikastty
+        identifier: Vikastty
+        description: ""
+        type: CI
+        spec:
+          cloneCodebase: false
+          platform:
+            os: Linux
+            arch: Amd64
+          runtime:
+            type: Cloud
+            spec: {}
+          execution:
+            steps:
+              - step:
+                  name: testt6
+                  identifier: testt6
+                  template:
+                    templateRef: account.BitRiseTemplate
+                    versionLabel: "1"
