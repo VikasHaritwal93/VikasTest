@@ -26,3 +26,9 @@ pipeline:
                   template:
                     templateRef: account.BitRiseTemplate
                     versionLabel: "1"
+              - step:
+                  name: dsgdfsg
+                  identifier: dsgdfsg
+                  template:
+                    templateRef: org.ste345
+                    versionLabel: "3"
