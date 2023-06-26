@@ -1,0 +1,33 @@
+pipeline:
+  identifier: Build_VikasTest_1687776106038
+  name: Build VikasTest
+  orgIdentifier: default
+  projectIdentifier: testproject
+  properties:
+    ci:
+      codebase:
+        build: <+input>
+        connectorRef: account.Github_OAuth_1687776097401
+        repoName: VikasHaritwal93/VikasTest
+  stages:
+    - stage:
+        identifier: build
+        name: build
+        spec:
+          cloneCodebase: true
+          execution:
+            steps:
+              - step:
+                  identifier: echo
+                  name: echo
+                  spec:
+                    command: echo hello world
+                  timeout: ""
+                  type: Run
+          platform:
+            arch: Amd64
+            os: Linux
+          runtime:
+            spec: {}
+            type: Cloud
+        type: CI
