@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_VikasTest_1688445007367-push-trigger-input-set
+  identifier: Build_VikasTest_1688445007367pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: dgdgfx
+  pipeline:
+    identifier: Build_VikasTest_1688445007367
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
