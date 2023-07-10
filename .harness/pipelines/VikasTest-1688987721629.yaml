@@ -25,7 +25,7 @@ pipeline:
                   timeout: ""
                   type: Run
           platform:
-            os: MacOS
+            os: Windows
             arch: Arm64
           runtime:
             type: Cloud
