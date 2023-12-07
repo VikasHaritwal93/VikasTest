@@ -6,9 +6,9 @@ pipeline:
   properties:
     ci:
       codebase:
-        build: <+input>
         connectorRef: account.testGithub
-        repoName: VikasHaritwal93/VikasTest
+        repoName: VikasTest
+        build: <+input>
   stages:
     - stage:
         identifier: build
