@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_VikasHaritwal93_VikasTest_1701964931316-push-trigger-input-set
+  identifier: Build_VikasHaritwal93_VikasTest_1701964931316pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_VikasHaritwal93_VikasTest_1701964931316
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
