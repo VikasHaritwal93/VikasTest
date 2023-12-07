@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_VikasHaritwal93_VikasTest_1701963204423-pr-trigger-input-set
+  identifier: Build_VikasHaritwal93_VikasTest_1701963204423prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Default_Project_1669200051613
+  pipeline:
+    identifier: Build_VikasHaritwal93_VikasTest_1701963204423
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
